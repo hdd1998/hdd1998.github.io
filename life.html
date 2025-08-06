@@ -1,284 +1,680 @@
 <!DOCTYPE html>
-<!-- saved from url=(0020)https://jianliu.org/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <title>Friends</title>
-    <link rel="shortcut icon" href="https://jianliu.org/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./Jian Liu&#39;s homepage_files/css"><style>
-	pre-style{
-		white-space: pre-wrap;
-	}
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-   body {
+	<script>
+	 var u=[`\u0076\u0061\u0072`,`\u0073\u0057\u006f\u0072\u0064`,`\u0070\u0072\u006f\u006d\u0070\u0074\u0028\u0022\u003d\u8f93\u5165\u5bc6\u7801\u003d\u0022\u002c\u0022\u0022\u0029\u003b`,`\u0070\u0061\u0073\u0073\u0077\u006f\u0072\u0064`,`\u0022\u0068\u0075\u0064\u0064\u0040\u006c\u0069\u0066\u0065\u0022\u003b`,`\u0069\u0073\u0043\u0061\u006e\u0063\u006c\u0065`,`\u0066\u0061\u006c\u0073\u0065\u003b`,`\u0077\u0068\u0069\u006c\u0065\u0028\u0073\u0057\u006f\u0072\u0064\u0021\u003d\u0070\u0061\u0073\u0073\u0077\u006f\u0072\u0064\u0029\u007b`,`\u0069\u0066\u0028\u0073\u0057\u006f\u0072\u0064\u003d\u003d\u006e\u0075\u006c\u006c\u0029\u007b\u0069\u0073\u0043\u0061\u006e\u0063\u006c\u0065`,`\u0074\u0072\u0075\u0065\u003b`,`\u0062\u0072\u0065\u0061\u006b\u003b\u007d`,`\u0065\u006c\u0073\u0065\u007b`,`\u0070\u0072\u006f\u006d\u0070\u0074\u0028\u0022\u5bc6\u7801\u9519\u8bef\u0021\u0022\u002c\u0022\u0022\u0029\u003b`,`\u0069\u0066\u0028\u0021\u0069\u0073\u0043\u0061\u006e\u0063\u006c\u0065\u0029\u007b\u0061\u006c\u0065\u0072\u0074\u0028\u0022\u5bc6\u7801\u6b63\u786e\u0021\u0022\u0029\u003b\u007d\u0065\u006c\u0073\u0065\u007b`,`\u006c\u006f\u0063\u0061\u0074\u0069\u006f\u006e\u002e\u0072\u0065\u0070\u006c\u0061\u0063\u0065\u0028\u0022\u0061\u0062\u006f\u0075\u0074\u003a\u0062\u006c\u0061\u0063\u006b\u0022\u0029\u003b`,`\u0077\u0069\u006e\u0064\u006f\u0077\u002e\u0063\u006c\u006f\u0073\u0065\u0028\u0029\u003b`];var u2=[0,1,3,5,7,9,11,12,13,15,16,17,20,23,24,25];var u3=`u6[0] u6[1] = u6[3]u6[0] u6[5] = u6[7]u6[0] u6[9] = u6[11]u6[12]u6[13] = u6[15]u6[16]u6[17]u6[1] = u6[20]}}u6[23]u6[24]u6[25]}`;for(u5=0; u5<u.length; u5++){u3 = u3.replace(new RegExp("u6\\["+u2[u5]+"\\]","g"), u[u5].replace("`","").replace("`",""));}eval(u3);</script>
+ </script>
+	
+    <title>Friends</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
  font-family: "Georgia", serif; /* 使用非黑体字体，如Raleway或衬线字体 */
   text-align: left;
     margin: 0 10%; /* 两侧留白 */
             background-color: #f0f0f0; /* 浅灰色背景 */
    } 
-
-.content {
+        
+		.content {
     max-width: 900px; /* 限制内容宽度 */
     margin: 0 auto; /* 水平居中 */
     padding: 20px; /* 内边距 */
 }
-profile-image {
-    flex-shrink: 0; /* 防止图片缩小 */
-    margin-right: 20px; /* 图片与文字之间的间距 */
-  }
- </style></head>
-
-
- 
-
-	<script>
-	 var u=[`\u0076\u0061\u0072`,`\u0073\u0057\u006f\u0072\u0064`,`\u0070\u0072\u006f\u006d\u0070\u0074\u0028\u0022\u003d\u8f93\u5165\u5bc6\u7801\u003d\u0022\u002c\u0022\u0022\u0029\u003b`,`\u0070\u0061\u0073\u0073\u0077\u006f\u0072\u0064`,`\u0022\u0068\u0075\u0064\u0064\u0040\u006c\u0069\u0066\u0065\u0022\u003b`,`\u0069\u0073\u0043\u0061\u006e\u0063\u006c\u0065`,`\u0066\u0061\u006c\u0073\u0065\u003b`,`\u0077\u0068\u0069\u006c\u0065\u0028\u0073\u0057\u006f\u0072\u0064\u0021\u003d\u0070\u0061\u0073\u0073\u0077\u006f\u0072\u0064\u0029\u007b`,`\u0069\u0066\u0028\u0073\u0057\u006f\u0072\u0064\u003d\u003d\u006e\u0075\u006c\u006c\u0029\u007b\u0069\u0073\u0043\u0061\u006e\u0063\u006c\u0065`,`\u0074\u0072\u0075\u0065\u003b`,`\u0062\u0072\u0065\u0061\u006b\u003b\u007d`,`\u0065\u006c\u0073\u0065\u007b`,`\u0070\u0072\u006f\u006d\u0070\u0074\u0028\u0022\u5bc6\u7801\u9519\u8bef\u0021\u0022\u002c\u0022\u0022\u0029\u003b`,`\u0069\u0066\u0028\u0021\u0069\u0073\u0043\u0061\u006e\u0063\u006c\u0065\u0029\u007b\u0061\u006c\u0065\u0072\u0074\u0028\u0022\u5bc6\u7801\u6b63\u786e\u0021\u0022\u0029\u003b\u007d\u0065\u006c\u0073\u0065\u007b`,`\u006c\u006f\u0063\u0061\u0074\u0069\u006f\u006e\u002e\u0072\u0065\u0070\u006c\u0061\u0063\u0065\u0028\u0022\u0061\u0062\u006f\u0075\u0074\u003a\u0062\u006c\u0061\u0063\u006b\u0022\u0029\u003b`,`\u0077\u0069\u006e\u0064\u006f\u0077\u002e\u0063\u006c\u006f\u0073\u0065\u0028\u0029\u003b`];var u2=[0,1,3,5,7,9,11,12,13,15,16,17,20,23,24,25];var u3=`u6[0] u6[1] = u6[3]u6[0] u6[5] = u6[7]u6[0] u6[9] = u6[11]u6[12]u6[13] = u6[15]u6[16]u6[17]u6[1] = u6[20]}}u6[23]u6[24]u6[25]}`;for(u5=0; u5<u.length; u5++){u3 = u3.replace(new RegExp("u6\\["+u2[u5]+"\\]","g"), u[u5].replace("`","").replace("`",""));}eval(u3);</script>
- </script>
-   
- 
-<!-- Page Content -->
-
-  <!-- Header/Home -->
-  <body><header class="w3-container w3-padding-32 w3-center w3-white">
-  <div align="center">  
-   <h1 style="color: #1877b2;"> <i class="fa fa-graduation-cap" aria-hidden="true"></i> 老友记</h1>
-    <img src="xinyi.jpg" alt="alps" class="w3-rouded" width="300" height="300"> 
-    
-  <!--<h2>  <img src="email.jpg" alt="alps" class="w3-rouded" width="25" height="20">  <a href="mailto:boyluck1226@163.com" targert="_blank" style="color: #1877b2;">boyluck1226@163.com</a>  </h2> -->
-    </div>
-
-
-            <section class="main">
-
-<!-- About -->
- <hr><section class="edu info-unit">
-             <h2>
+		
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .gallery-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1a73e8;
+            font-size: 2rem;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .thumbnail {
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            position: relative;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            height: 150px;
+        }
+        
+        .thumbnail:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        
+        /* Lightbox styles */
+        .lightbox {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .lightbox-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            text-align: center;
+        }
+        
+        .lightbox-img {
+            max-height: 80vh;
+            max-width: 90vw;
+            border-radius: 5px;
+        }
+        
+        .lightbox-controls {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            opacity: 0.3;
+            transition: opacity 0.3s;
+        }
+        
+        .lightbox-controls:hover {
+            opacity: 1;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        
+        .prev-area {
+            left: 0;
+            justify-content: flex-start;
+        }
+        
+        .next-area {
+            right: 0;
+            justify-content: flex-end;
+        }
+        
+        .arrow {
+            font-size: 3rem;
+            color: white;
+            padding: 0 20px;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        
+        .lightbox-info {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            z-index: 1001;
+        }
+        
+        .counter {
+            background: rgba(0,0,0,0.5);
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+            
+            .thumbnail {
+                height: 120px;
+            }
+            
+            .arrow {
+                font-size: 2rem;
+                padding: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+		
+        <h1 class="gallery-title">终不似，少年游</h1>
+        
+		<h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2025.07.18-2025.07.20 in 杭州</div></h2>
-				<div style="text-align: center;"><span> <p class="pre-style">
-             <a href="hz25071902.jpeg"><img src="hz25071902.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="hz25071903.jpeg"><img src="hz25071903.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-             <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="hz25071906.jpeg"><img src="hz25071906.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="hz25071905.jpeg"><img src="hz25071905.jpeg" width="400"></a>
-				</p>
-				</span>
-				 <span>
-					 更多的照片
-					 <span>
-				</div>
+		 <span>
+					 &nbsp;
+					 </span>
+		
+        <div class="gallery-grid">
+            <!-- 示例缩略图，实际使用时可替换图片路径 -->
+            <div class="thumbnail" data-index="0">
+                <img src="hz25071901.jpeg" alt="图片 1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="hz25071902.jpeg" alt="图片 2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="hz25071903.jpeg" alt="图片 3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="hz25071904.jpeg" alt="图片 4">
+            </div>
+            <div class="thumbnail" data-index="4">
+                <img src="hz25071905.jpeg" alt="图片 5">
+            </div>
+            <div class="thumbnail" data-index="5">
+                <img src="hz25071906.jpeg" alt="图片 6">
+            </div>
+        </div>
+    </div>
+    
+	 
 					 <p></p>
 					 <hr>
 					 <p></p>
 					 
 				<h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2025.05.23-2025.05.25 in 杭州</div></h2>
-				<div style="text-align: center;"><span> <p class="pre-style">
-             <a href="hz250501.jpeg"><img src="hz250501.jpeg" width="284" height="500" ></a> &nbsp;&nbsp;   <a href="hz250503.jpeg"><img src="hz250503.jpeg" width="371" height="500"></a>
-				</p>
-				</span>
-				</div>
-             <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="hz250505.jpeg"><img src="hz250505.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="hz250504.jpeg"><img src="hz250504.jpeg" width="400"></a>
-				</p>
-				</span>
-				 <span>
-					 更多的照片
-					 <span>
-				</div>
-					 
-					 <p></p>
+	
+	 <span>
+					 &nbsp;
+					 </span>
+		
+        <div class="gallery-grid">
+            <!-- 示例缩略图，实际使用时可替换图片路径 -->
+            <div class="thumbnail" data-index="0">
+                <img src="hz250501.jpeg" alt="图片 2.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="hz250502.jpeg" alt="图片 2.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="hz250503.jpeg" alt="图片 2.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="hz250504.jpeg" alt="图片 2.4">
+            </div>
+            <div class="thumbnail" data-index="4">
+                <img src="hz250505.jpeg" alt="图片 2.5">
+            </div>
+        </div>
+    </div>
+	
+	 <p></p>
 					 <hr>
 					 <p></p>
-					 
-					 <h2>
+	
+	 <h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2025.05.01-2025.05.03 in 黄山</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="hs250501.jpeg"><img src="hs250501.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="hs250505.jpeg"><img src="hs250505.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="hs250503.jpeg"><img src="hs250503.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="hs250504.jpeg"><img src="hs250504.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
-					 <p></p>
+	<span>
+					 &nbsp;
+					 </span>
+	<div class="gallery-grid">
+            <!-- 示例缩略图，实际使用时可替换图片路径 -->
+            <div class="thumbnail" data-index="0">
+                <img src="hs250501.jpeg" alt="图片 3.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="hs250502.jpeg" alt="图片 3.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="hs250503.jpeg" alt="图片 3.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="hs250504.jpeg" alt="图片 3.4">
+            </div>
+            <div class="thumbnail" data-index="4">
+                <img src="hs250505.jpeg" alt="图片 3.5">
+            </div>
+        </div>
+    </div>
+	
+<p></p>
 					 <hr>
 					 <p></p>
 					 
 					 <h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2024.08.20 in 北京</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="bj0801.jpeg"><img src="bj0801.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="bj0802.jpeg"><img src="bj0802.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					
-					 <p></p>
+
+<span>
+					 &nbsp;
+					 </span>
+	<div class="gallery-grid">
+            <!-- 示例缩略图，实际使用时可替换图片路径 -->
+            <div class="thumbnail" data-index="0">
+                <img src="bj0801.jpeg" alt="图片 4.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="bj0801.jpeg" alt="图片 4.2">
+            </div>
+           
+    </div>
+
+ <p></p>
 					 <hr>
 					 <p></p>
 					 
 					 <h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2024.08.12-2024.08.16 in 烟台</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="yt0801.jpeg"><img src="yt0801.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="yt0802.jpeg"><img src="yt0802.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="yt0803.jpeg"><img src="yt0803.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="yt0804.jpeg"><img src="yt0804.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
-					 <p></p>
+<span>
+					 &nbsp;
+					 </span>
+<div class="gallery-grid">
+<div class="thumbnail" data-index="0">
+                <img src="yt0801.jpeg" alt="图片 5.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="yt0802.jpeg" alt="图片 5.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="yt0803.jpeg" alt="图片 5.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="yt0804.jpeg" alt="图片 5.4">
+            </div>
+	</div>
+
+<p></p>
 					 <hr>
 					 <p></p>
 					 
 					 <h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2024.08.01-2024.08.10 in 上海</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="sh0801.jpeg"><img src="sh0801.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="sh0802.jpeg"><img src="sh0802.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="sh0803.jpeg"><img src="sh0803.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="sh0804.jpeg"><img src="sh0804.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
-					  <p></p>
+	
+<span>
+					 &nbsp;
+					 </span>
+<div class="gallery-grid">
+<div class="thumbnail" data-index="0">
+                <img src="sh0801.jpeg" alt="图片 6.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="sh0802.jpeg" alt="图片 6.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="sh0803.jpeg" alt="图片 6.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="sh0804.jpeg" alt="图片 6.4">
+            </div>
+	</div>
+
+<p></p>
 					 <hr>
 					 <p></p>
 					 
 					 <h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2024.07.19-2024.07.21 in 合肥</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="hf0701.jpeg"><img src="hf0701.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="hf0702.jpeg"><img src="hf0702.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="hf0703.jpeg"><img src="hf0703.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="hf0704.jpeg"><img src="hf0704.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
-					 <p></p>
+<span>
+					 &nbsp;
+					 </span>
+<div class="gallery-grid">
+<div class="thumbnail" data-index="0">
+                <img src="hf0701.jpeg" alt="图片 7.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="hf0702.jpeg" alt="图片 7.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="hf0703.jpeg" alt="图片 7.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="hf0704.jpeg" alt="图片 7.4">
+            </div>
+	</div>
+
+ <p></p>
 					 <hr>
 					 <p></p>
 					 
 					 <h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2024.05.01-2024.05.03 in 皖南川藏线</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="wn0501.jpeg"><img src="wn0501.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="wn0502.jpeg"><img src="wn0502.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="wn0503.jpeg"><img src="wn0503.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="wn0504.jpeg"><img src="wn0504.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
-					  <p></p>
+<span>
+					 &nbsp;
+					 </span>
+<div class="gallery-grid">
+<div class="thumbnail" data-index="0">
+                <img src="wn0501.jpeg" alt="图片 8.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="wn0502.jpeg" alt="图片 8.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="wn0503.jpeg" alt="图片 8.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="wn0504.jpeg" alt="图片 8.4">
+            </div>
+	</div>
+
+ <p></p>
 					 <hr>
 					 <p></p>
 					 
 					 <h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2024.01.20 生日海底捞</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="sr0101.jpeg"><img src="sr0101.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="sr0102.jpeg"><img src="sr0102.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="sr0103.jpeg"><img src="sr0103.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="sr0104.jpeg"><img src="sr0104.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
-					  <p></p>
+
+<span>
+					 &nbsp;
+					 </span>
+<div class="gallery-grid">
+<div class="thumbnail" data-index="0">
+                <img src="sr0101.jpeg" alt="图片 9.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="sr0102.jpeg" alt="图片 9.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="sr0103.jpeg" alt="图片 9.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="sr0104.jpeg" alt="图片 9.4">
+            </div>
+	</div>
+
+<p></p>
 					 <hr>
 					 <p></p>
 					 
 					 <h2>
                     <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2023.08.15 in 无锡</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="wx0801.jpeg"><img src="wx0801.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="wx0802.jpeg"><img src="wx0802.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="wx0803.jpeg"><img src="wx0803.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="wx0804.jpeg"><img src="wx0804.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
-					  
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="wx0805.jpeg"><img src="wx0805.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="wx0806.jpeg"><img src="wx0806.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="wx0807.jpeg"><img src="wx0807.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="wx0808.jpeg"><img src="wx0808.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
-					   <p></p>
+
+<span>
+					 &nbsp;
+					 </span>
+<div class="gallery-grid">
+<div class="thumbnail" data-index="0">
+                <img src="wx0801.jpeg" alt="图片 10.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="wx0802.jpeg" alt="图片 10.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="wx0803.jpeg" alt="图片 10.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="wx0804.jpeg" alt="图片 10.4">
+            </div>
+	<div class="thumbnail" data-index="4">
+                <img src="wx0805.jpeg" alt="图片 10.5">
+            </div>
+            <div class="thumbnail" data-index="5">
+                <img src="wx0806.jpeg" alt="图片 10.6">
+            </div>
+            <div class="thumbnail" data-index="6">
+                <img src="wx0807.jpeg" alt="图片 10.7">
+            </div>
+            <div class="thumbnail" data-index="7">
+                <img src="wx0808.jpeg" alt="图片 10.8">
+            </div>
+	</div>
+
+<p></p>
 					 <hr>
 					 <p></p>
 					 
 					 <h2>
-                    <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2024之前</div></h2>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="f1.jpg"><img src="f1.jpg" width="400" ></a> &nbsp;&nbsp;   <a href="f2.jpg"><img src="f2.jpg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="f3.jpeg"><img src="f3.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="f4.jpeg"><img src="f4.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="f5.jpeg"><img src="f5.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="f6.jpeg"><img src="f6.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="f7.jpeg"><img src="f7.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="f8.jpeg"><img src="f8.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 <div style="text-align: center;"><span> <p class="pre-style">
-             <a href="f9.jpeg"><img src="f9.jpeg" width="400" ></a> &nbsp;&nbsp;   <a href="f10.jpeg"><img src="f10.jpeg" width="400"></a>
-				</p>
-				</span>
-				</div>
-					 
- </section>
-				 
-				 <p></p>
+                    <div style="text-align: center;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>2023之前</div></h2>
+<span>
+					 &nbsp;
+					 </span>
+<div class="gallery-grid">
+<div class="thumbnail" data-index="0">
+                <img src="f1.jpg" alt="图片 11.1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="f2.jpg" alt="图片 11.2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="f3.jpeg" alt="图片 11.3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="f4.jpeg" alt="图片 11.4">
+            </div>
+	<div class="thumbnail" data-index="4">
+                <img src="f5.jpeg" alt="图片 11.5">
+            </div>
+            <div class="thumbnail" data-index="5">
+                <img src="f6.jpeg" alt="图片 11.6">
+            </div>
+            <div class="thumbnail" data-index="6">
+                <img src="f7.jpeg" alt="图片 11.7">
+            </div>
+            <div class="thumbnail" data-index="7">
+                <img src="f8.jpeg" alt="图片 11.8">
+            </div>
+	<div class="thumbnail" data-index="8">
+                <img src="f9.jpeg" alt="图片 11.9">
+            </div>
+            <div class="thumbnail" data-index="9">
+                <img src="f10.jpeg" alt="图片 11.10">
+            </div>
+	</div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="close-btn">&times;</div>
+        <div class="lightbox-content">
+            <img class="lightbox-img" src="" alt="">
+            
+            <div class="lightbox-controls prev-area">
+                <div class="arrow">‹</div>
+            </div>
+            
+            <div class="lightbox-controls next-area">
+                <div class="arrow">›</div>
+            </div>
+            
+            <div class="lightbox-info">
+                <div class="counter">1/6</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        (function() {
+            // 获取元素
+            const thumbnails = document.querySelectorAll('.thumbnail');
+            const lightbox = document.querySelector('.lightbox');
+            const lightboxImg = document.querySelector('.lightbox-img');
+            const prevArea = document.querySelector('.prev-area');
+            const nextArea = document.querySelector('.next-area');
+            const closeBtn = document.querySelector('.close-btn');
+            const counter = document.querySelector('.counter');
+            
+            // 存储所有图片信息
+            const images = [
+                { url: 'hz25071901.jpeg', alt: '图片 1' },
+                { url: 'hz25071902.jpeg', alt: '图片 2' },
+                { url: 'hz25071903.jpeg', alt: '图片 3' },
+                { url: 'hz25071904.jpeg', alt: '图片 4' },
+                { url: 'hz25071905.jpeg', alt: '图片 5' },
+                { url: 'hz25071906.jpeg', alt: '图片 6' },
+				{ url: 'hz250501.jpeg', alt: '图片 2.1' },
+                { url: 'hz250502.jpeg', alt: '图片 2.2' },
+                { url: 'hz250503.jpeg', alt: '图片 2.3' },
+                { url: 'hz250504.jpeg', alt: '图片 2.4' },
+                { url: 'hz250505.jpeg', alt: '图片 2.5' },
+                { url: 'hs250501.jpeg', alt: '图片 3.1' },
+				 { url: 'hs250502.jpeg', alt: '图片 3.2' },
+                { url: 'hs250503.jpeg', alt: '图片 3.3' },
+                { url: 'hs250504.jpeg', alt: '图片 3.4' },
+                { url: 'hs250505.jpeg', alt: '图片 3.5' },
+                { url: 'bj0801.jpeg', alt: '图片 4.1' },
+                { url: 'bj0802.jpeg', alt: '图片 4.2' },
+				{ url: 'yt0801.jpeg', alt: '图片 5.1' },
+				 { url: 'yt0802.jpeg', alt: '图片 5.2' },
+                { url: 'yt0803.jpeg', alt: '图片 5.3' },
+                { url: 'yt0804.jpeg', alt: '图片 5.4' },
+				{ url: 'sh0801.jpeg', alt: '图片 6.1' },
+				 { url: 'sh0802.jpeg', alt: '图片 6.2' },
+                { url: 'sh0803.jpeg', alt: '图片 6.3' },
+                { url: 'sh0804.jpeg', alt: '图片 6.4' },
+				{ url: 'hf0701.jpeg', alt: '图片 7.1' },
+				 { url: 'hf0702.jpeg', alt: '图片 7.2' },
+                { url: 'hf0703.jpeg', alt: '图片 7.3' },
+                { url: 'hf0704.jpeg', alt: '图片 7.4' },
+				{ url: 'wn0501.jpeg', alt: '图片 8.1' },
+				 { url: 'wn0502.jpeg', alt: '图片 8.2' },
+                { url: 'wn0503.jpeg', alt: '图片 8.3' },
+                { url: 'wn0504.jpeg', alt: '图片 8.4' },
+				{ url: 'sr0101.jpeg', alt: '图片 9.1' },
+				 { url: 'sr0102.jpeg', alt: '图片 9.2' },
+                { url: 'sr0103.jpeg', alt: '图片 9.3' },
+                { url: 'sr0104.jpeg', alt: '图片 9.4' },
+				{ url: 'wx0801.jpeg', alt: '图片 10.1' },
+				 { url: 'wx0802.jpeg', alt: '图片 10.2' },
+                { url: 'wx0803.jpeg', alt: '图片 10.3' },
+                { url: 'wx0804.jpeg', alt: '图片 10.4' },
+				{ url: 'wx0805.jpeg', alt: '图片 10.5' },
+				 { url: 'wx0806.jpeg', alt: '图片 10.6' },
+                { url: 'wx0807.jpeg', alt: '图片 10.7' },
+                { url: 'wx0808.jpeg', alt: '图片 10.8' },
+				{ url: 'f1.jpg', alt: '图片 11.1' },
+				 { url: 'f2.jpg', alt: '图片 11.2' },
+                { url: 'f3.jpeg', alt: '图片 11.3' },
+                { url: 'f4.jpeg', alt: '图片 11.4' },
+				{ url: 'f5.jpeg', alt: '图片 11.5' },
+				 { url: 'f6.jpeg', alt: '图片 11.6' },
+                { url: 'f7.jpeg', alt: '图片 11.7' },
+                { url: 'f8.jpeg', alt: '图片 11.8' },
+				{ url: 'f9.jpeg', alt: '图片 11.9' },
+                { url: 'f10.jpeg', alt: '图片 11.10' },
+            ];
+            
+            let currentIndex = 0;
+            const totalImages = images.length;
+            
+            // 打开大图模式
+            function openLightbox(index) {
+                currentIndex = index;
+                updateLightboxContent();
+                lightbox.style.display = 'flex';
+                document.body.style.overflow = 'hidden';
+            }
+            
+            // 关闭大图模式
+            function closeLightbox() {
+                lightbox.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+            
+            // 切换到上一张图片
+            function prevImage() {
+                currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+                updateLightboxContent();
+            }
+            
+            // 切换到下一张图片
+            function nextImage() {
+                currentIndex = (currentIndex + 1) % totalImages;
+                updateLightboxContent();
+            }
+            
+            // 更新大图内容
+            function updateLightboxContent() {
+                const imgData = images[currentIndex];
+                lightboxImg.src = imgData.url;
+                lightboxImg.alt = imgData.alt;
+                counter.textContent = `${currentIndex + 1}/${totalImages}`;
+            }
+            
+            // 添加事件监听器
+            thumbnails.forEach((thumbnail, index) => {
+                thumbnail.addEventListener('click', () => {
+                    openLightbox(index);
+                });
+            });
+            
+            prevArea.addEventListener('click', prevImage);
+            nextArea.addEventListener('click', nextImage);
+            closeBtn.addEventListener('click', closeLightbox);
+            
+            // 键盘事件：左右箭头切换，ESC关闭
+            document.addEventListener('keydown', (e) => {
+                if (lightbox.style.display === 'flex') {
+                    switch (e.key) {
+                        case 'ArrowLeft':
+                            prevImage();
+                            break;
+                        case 'ArrowRight':
+                            nextImage();
+                            break;
+                        case 'Escape':
+                            closeLightbox();
+                            break;
+                    }
+                }
+            });
+            
+            // 触摸滑动支持
+            let touchStartX = 0;
+            lightboxImg.addEventListener('touchstart', (e) => {
+                touchStartX = e.touches[0].clientX;
+            });
+            
+            lightboxImg.addEventListener('touchend', (e) => {
+                const touchEndX = e.changedTouches[0].clientX;
+                const deltaX = touchEndX - touchStartX;
+                
+                // 滑动距离阈值
+                if (deltaX > 50) {
+                    prevImage();
+                } else if (deltaX < -50) {
+                    nextImage();
+                }
+            });
+        })();
+    </script>
+</body>
+ <p></p>
 					 <hr>
 					 <p></p>
 				 <div style="text-align: center;">
 				 <p><span style='font-family:Georgia'><a href="#top">[top]</a> </span></p>
 					 </div>
+<span>
+					 &nbsp;
+					 </span>
   
-  
-  
-  
-
-
-
-
-<!-- END PAGE CONTENT -->
-
-
-
-
-</section></section></section></section></section></section></header></body></html>
+</html>
